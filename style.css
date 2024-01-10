@@ -14,7 +14,7 @@ header {
 
 /* Circular profile picture */
 .profile-picture {
-    background-image: url('https://github.com/TITHI-KHAN/tithi-khan.github.io/blob/main/Website%20Pic.png'); /* Replace with the path to your profile picture */
+    background-image: url('Website Pic.png'); /* Replace with the path to your profile picture */
     background-size: cover;
     background-position: center;
     width: 150px;
