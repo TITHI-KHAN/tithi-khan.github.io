@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
@@ -52,6 +52,17 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
+
+    section.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.qualification {
+    flex: 0 0 45%;
+    margin-bottom: 20px;
+}
     padding: 1em;
     position: fixed;
     bottom: 0;
