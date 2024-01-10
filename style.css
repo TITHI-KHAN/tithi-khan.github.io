@@ -17,14 +17,14 @@ header {
     background-image: url('C:\Users\pc1\Downloads\Edited.png'); /* Replace with the path to your profile picture */
     background-size: cover;
     background-position: center;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 2px solid white;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 5%;
+    transform: translate(0, -50%);
 }
 
 nav ul {
