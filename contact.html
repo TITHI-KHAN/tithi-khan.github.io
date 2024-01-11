@@ -41,6 +41,18 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
+        .profile-container {
+            text-align: center;
+        }
+
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px; /* Adjust margin to separate the picture from text */
+        }
+
         @media only screen and (max-width: 400px) {
             /* Adjust styles for small screens */
             table {
@@ -73,7 +85,9 @@
 
     <header>
         <!-- Adding a circular profile picture -->
-        <div class="profile-picture"></div>
+        <div class="profile-container">
+            <div class="profile-picture"></div>
+        </div>
         <h1>Nazmun Nahar Khanom</h1>
         
         <nav>
