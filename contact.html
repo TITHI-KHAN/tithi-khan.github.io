@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Nazmun Nahar Khanom - Contact</title>
-    <style>
+   <style>
         body {
             font-family: 'Times New Roman', Times, serif;
             margin: 0;
@@ -19,6 +19,28 @@
             color: #fff;
             padding: 10px 0;
             text-align: center;
+            position: relative;
+        }
+
+        .profile-picture {
+            width: 100px; /* Adjust as needed */
+            height: 100px; /* Adjust as needed */
+            background-color: #fff;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            left: 10px; /* Adjust as needed */
+            transform: translateY(-50%);
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            margin-left: 120px; /* Adjust based on the picture size */
         }
 
         nav ul {
@@ -41,29 +63,6 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .profile-container {
-            text-align: center;
-        }
-
-        .profile-picture {
-            width: 100px; /* Adjust the size as needed */
-            height: 100px;
-            border-radius: 50%;
-            overflow: hidden;
-            margin: 0 auto 20px; /* Adjust margin to separate the picture from text */
-        }
-
-        @media only screen and (max-width: 400px) {
-            /* Adjust styles for small screens */
-            table {
-                font-size: 12px;
-            }
-        }
-
-        h2 {
-            color: #333;
-        }
-
         ul {
             list-style-type: none;
             padding: 0;
@@ -73,11 +72,20 @@
             margin-bottom: 10px;
         }
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
+        @media only screen and (max-width: 600px) {
+            /* Adjust styles for small screens */
+            h1 {
+                margin-left: 0;
+            }
+
+            .profile-picture {
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+        }
+
+        h2 {
+            color: #333;
         }
     </style>
 </head>
