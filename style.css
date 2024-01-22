@@ -16,22 +16,12 @@
             position: relative;
         }
 
-        .profile-picture {
-            background-image: url('Website Pic.png'); /* Replace with the path to your profile picture */
-            background-size: cover;
-            background-position: center;
-            width: 150px;
-            height: 120px;
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            right: 9%;
-            transform: translate(0, -50%);
-        }
-
 /* Your existing styles */
 
 body.home-page .profile-picture {
+  background-image: url('Website Pic.png'); /* Replace with the path to your profile picture */
+            background-size: cover;
+            background-position: center;
     width: 200px; /* Adjust the size as needed */
     height: 200px; /* Adjust the size as needed */
     border-radius: 50%;
