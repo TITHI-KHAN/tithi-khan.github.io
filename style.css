@@ -64,12 +64,29 @@ footer {
     .profile-picture {
         width: 100px;
         height: 80px;
-        right: 2%;
+        right: 10px;
     }
-
+nav ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
     nav ul li {
         display: block;
         margin-bottom: 5px;
+    }
+ nav a {
+        color: white;
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    nav.toggle ul {
+        display: block;
     }
 
     .main-content {
