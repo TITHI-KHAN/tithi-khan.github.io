@@ -19,13 +19,13 @@
 /* Your existing styles */
 
 body.home-page .profile-picture {
-  background-image: url('Website Pic.png'); /* Replace with the path to your profile picture */
-            background-size: cover;
-            background-position: center;
-    width: 200px; /* Adjust the size as needed */
-    height: 200px; /* Adjust the size as needed */
+    background-image: url('Website Pic.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
- margin: 20px auto; /* Adjust margin to center horizontally */
+    margin: 20px auto 0;
     display: block;
 }
 
@@ -52,11 +52,11 @@ body.home-page .profile-picture {
             background-color: #666;
         }
 
-        .main-content {
-            max-width: 800px;
-           margin: 20px auto 80px; /* Adjust bottom margin to leave space for the footer */
-            padding: 20px;
-        }
+      .main-content {
+    max-width: 800px;
+    margin: 240px auto 60px; /* Adjust margin to leave space for the footer */
+    padding: 20px;
+}
 
         footer {
             background-color: #333;
