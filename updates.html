@@ -61,6 +61,7 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
+            position: relative; /* Added position relative */
         }
 
         footer {
@@ -83,20 +84,24 @@
             position: relative;
         }
 
-        .important-symbol {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            color: red;
-            font-size: 20px;
-        }
-
+        .important-symbol,
         .regular-update-symbol {
             position: absolute;
             top: 5px;
             right: 5px;
-            color: #3498db;
             font-size: 20px;
+        }
+
+        .important-symbol::before {
+            content: '⭐️ Important Update';
+            color: red;
+            margin-right: 10px;
+        }
+
+        .regular-update-symbol::before {
+            content: '🔔 Regular Update';
+            color: #3498db;
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -124,14 +129,14 @@
         <h2>Updates</h2>
 
         <div class="update-item">
-            <span class="important-symbol">⭐️</span>
+            <span class="important-symbol"></span>
             <h3>Important Update</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
             <small>Published on: January 15, 2024</small>
         </div>
 
         <div class="update-item">
-            <span class="regular-update-symbol">🔔</span>
+            <span class="regular-update-symbol"></span>
             <h3>Regular Update</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
             <small>Published on: January 10, 2024</small>
