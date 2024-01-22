@@ -1,70 +1,71 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-}
-.container {
-    position: relative;
-}
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
 
+ 
+    <style>
+        /* Add custom styles if needed */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+        }
 
-.profile-picture {
-    background-image: url('Website Pic.png');
-    /* Replace with the path to your profile picture */
-    background-size: cover;
-    background-position: center;
-    width: 150px;
-    height: 120px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    transform: translate(0, -50%);
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+        .profile-picture {
+            background-image: url('Website Pic.png'); /* Replace with the path to your profile picture */
+            background-size: cover;
+            background-position: center;
+            width: 150px;
+            height: 120px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            right: 5%;
+            transform: translate(0, -50%);
+        }
 
-nav ul li {
-    display: inline-block; /* Updated to inline-block to appear side by side */
-    margin-right: 10px;
-}
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    display: block;
-    text-align: center;
-    border: 1px solid #333;
-    border-radius: 5px;
-    background-color: #666;
-}
-.content {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-}
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            display: block;
+            text-align: center;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #666;
+        }
 
+        .main-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
 
 /* Media Queries for Responsive Design */
 
