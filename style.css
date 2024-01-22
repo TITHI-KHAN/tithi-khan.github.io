@@ -29,6 +29,15 @@
             transform: translate(0, -50%);
         }
 
+/* Your existing styles */
+
+body.home-page .profile-picture {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    border-radius: 50%;
+}
+
+
         nav ul {
             list-style-type: none;
             margin: 0;
