@@ -39,8 +39,13 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #666;
 }
-
 .main-content {
     max-width: 800px;
     margin: 20px auto;
@@ -66,6 +71,7 @@ footer {
         height: 80px;
         right: 10px;
     }
+    
 nav ul {
         display: none;
         position: absolute;
