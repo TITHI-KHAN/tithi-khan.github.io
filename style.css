@@ -25,6 +25,8 @@ body.home-page .profile-picture {
     width: 200px; /* Adjust the size as needed */
     height: 200px; /* Adjust the size as needed */
     border-radius: 50%;
+   margin: 20px auto; /* Adjust margin as needed */
+    display: block;
 }
 
 
