@@ -32,7 +32,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block; /* Updated to inline-block to appear side by side */
     margin-right: 10px;
 }
 
