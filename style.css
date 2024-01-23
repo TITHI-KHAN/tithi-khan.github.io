@@ -54,7 +54,7 @@ body.home-page .profile-picture {
 
       .main-content {
     max-width: 800px;
-    margin: 240px auto 60px; /* Adjust margin to leave space for the footer */
+    margin: 0px auto 60px; /* Adjust margin to leave space for the footer */
     padding: 10px;
 }
 
