@@ -69,10 +69,8 @@ body.home-page .profile-picture {
         }
 
 /* Media Queries for Responsive Design */
-
 @media only screen and (max-width: 600px) {
     /* Adjustments for smaller screens */
-
     body.home-page .profile-picture {
         background-image: url('Website Pic.png');
         background-size: cover;
@@ -137,14 +135,12 @@ body.home-page .profile-picture {
     footer {
         position: static;
     }
-}
 
-/* Add the styles for the mobile navigation */
-.mobile-nav {
-    display: none;
-}
+    /* Add the styles for the mobile navigation */
+    .mobile-nav {
+        display: none;
+    }
 
-@media only screen and (max-width: 600px) {
     .nav-open .mobile-nav {
         display: block;
     }
