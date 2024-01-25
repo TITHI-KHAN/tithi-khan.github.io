@@ -73,12 +73,16 @@ body.home-page .profile-picture {
 @media only screen and (max-width: 600px) {
     /* Adjustments for smaller screens */
 
-    body.home-page .profile-picture {
-        width: 100px;
-        height: 80px;
-        margin: 0 auto 10px;
-        display: block;
-    }
+   body.home-page .profile-picture {
+    background-image: url('Website Pic.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0px auto 0;
+    display: block;
+}
 
     nav ul {
         display: none;
