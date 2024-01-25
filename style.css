@@ -138,3 +138,27 @@ body.home-page .profile-picture {
         position: static;
     }
 }
+
+/* Add the styles for the mobile navigation */
+.mobile-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-open .mobile-nav {
+        display: block;
+    }
+
+    .nav-closed .mobile-nav {
+        display: none;
+    }
+
+    .nav-closed nav ul {
+        display: none;
+    }
+
+    .nav-open nav button {
+        background-color: #333;
+        color: white;
+    }
+}
