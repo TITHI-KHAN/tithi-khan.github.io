@@ -72,25 +72,30 @@ body.home-page .profile-picture {
 
 @media only screen and (max-width: 600px) {
     /* Adjustments for smaller screens */
-    .profile-picture {
+
+    body.home-page .profile-picture {
         width: 100px;
         height: 80px;
-        right: 10px;
+        margin: 10px auto; /* Center the profile picture */
+        display: block;
     }
-    
-nav ul {
+
+    nav ul {
         display: none;
         position: absolute;
         top: 60px;
         background-color: #333;
         width: 100%;
         text-align: center;
+        z-index: 1; /* Ensure the menu is on top of other elements */
     }
+
     nav ul li {
         display: block;
         margin-bottom: 5px;
     }
- nav a {
+
+    nav a {
         color: white;
         padding: 10px;
         display: block;
@@ -103,6 +108,7 @@ nav ul {
 
     .main-content {
         padding: 10px;
+        margin-top: 140px; /* Adjust the margin to avoid overlapping with the header */
     }
 
     footer {
