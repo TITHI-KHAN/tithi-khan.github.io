@@ -83,6 +83,10 @@ body.home-page .profile-picture {
     margin: 0px auto 0;
     display: block;
 }
+ nav ul li {
+                display: block;
+                margin-bottom: 5px;
+            }
 .mobile-container {
   max-width: 480px;
   margin: auto;
