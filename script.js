@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const navToggle = document.getElementById('navToggle');
+    const navToggle = document.querySelector('.toggle-button');
     const nav = document.querySelector('nav');
 
     navToggle.addEventListener('click', function() {
