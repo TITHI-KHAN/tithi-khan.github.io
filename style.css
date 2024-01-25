@@ -89,10 +89,16 @@ body.home-page .profile-picture {
 
     .topnav {
         /* Your existing styles for the top navigation in mobile view */
+      position: relative;
     }
 
     .topnav #myLinks {
         /* Your existing styles for the mobile navigation links */
+     position: absolute;
+        top: 60px; /* Adjust the top position to fit your design */
+        right: 0;
+        background-color: #333;
+        z-index: 1;
     }
 
     .topnav a.icon {
@@ -126,6 +132,9 @@ body.home-page .profile-picture {
         border-radius: 5px;
         font-size: 16px;
         cursor: pointer;
+     position: absolute;
+        top: 10px; /* Adjust the top position to fit your design */
+        right: 10px; /* Adjust the right position to fit your design */
     }
 
     /* Hide regular navigation links in mobile view */
