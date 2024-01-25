@@ -84,24 +84,16 @@ body.home-page .profile-picture {
     display: block;
 }
 
-    nav ul {
-        position: absolute;
-        top: 60px;
-        background-color: #333;
-        width: 100%;
-        text-align: center;
-        z-index: 1;
-    }
+       nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
 
-    nav ul.show {
-        display: inline-block;
-    }
-
-    nav ul li {
-        display: inline-block;
-        margin-bottom: 5px;
-    }
-
+        nav li {
+            display: inline-block;
+            margin-right: 10px;
+        }
     nav a {
         color: white;
         padding: 10px;
