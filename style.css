@@ -77,29 +77,58 @@ body.home-page .profile-picture {
 @media only screen and (max-width: 600px) {
     body.home-page .profile-picture {
         /* Your existing styles for the profile picture in mobile view */
+       background-image: url('Website Pic.png');
+        background-size: cover;
+        background-position: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto 0;
+        display: block;
     }
 
     nav ul li {
         /* Your existing styles for navigation links in mobile view */
+     display: block;
+        margin-bottom: 5px;
     }
 
     .mobile-container {
         /* Your existing styles for the mobile container */
+     max-width: 480px;
+        margin: auto;
+        background-color: #555;
+        height: 500px;
+        color: white;
+        border-radius: 10px;
     }
 
     .topnav {
         /* Your existing styles for the top navigation in mobile view */
       position: relative;
+     overflow: hidden;
+        background-color: #333;
+        position: relative;
     }
 
     .topnav #myLinks {
         /* Your existing styles for the mobile navigation links */
+     display: none;
      position: absolute;
         top: 60px; /* Adjust the top position to fit your design */
         right: 0;
         background-color: #333;
         z-index: 1;
     }
+
+  .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
 
     .topnav a.icon {
         /* Your existing styles for the toggle icon */
@@ -112,10 +141,14 @@ body.home-page .profile-picture {
 
     .topnav a:hover {
         /* Your existing styles for hover effect in mobile view */
+      background-color: #ddd;
+        color: black;
     }
 
     .active {
         /* Your existing styles for the active link in mobile view */
+     background-color: #04AA6D;
+        color: white;
     }
 
     footer {
