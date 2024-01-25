@@ -83,14 +83,14 @@ body.home-page .profile-picture {
     margin: 0px auto 0;
     display: block;
 }
-
-    .main-content {
-        padding: 10px;
-        margin: auto; /* Adjust the margin to avoid overlapping with the header */
-     height: 500px;
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
   color: white;
   border-radius: 10px;
-    }
+}
 .topnav {
   overflow: hidden;
   background-color: #333;
