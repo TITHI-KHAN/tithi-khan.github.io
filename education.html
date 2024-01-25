@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Nazmun Nahar Khanom - Education</title>
+    <style>  .toggle-button {
+    display: none; /* Initially hide the toggle button */
+}
+
+           #navCheckbox {
+            display: none;
+        }
+
+        .toggle-button {
+            display: none;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .toggle-button {
+                display: block;
+                background: black;
+                color: white;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                position: absolute;
+                top: 100px;
+                right: 2px;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+            #navCheckbox:checked + nav ul {
+                display: block;
+            }
+
+            .toggle-button:hover {
+                background-color: #ddd;
+                color: black;
+            }
+</style>
 </head>
 <body>
     <header>
