@@ -68,53 +68,35 @@ body.home-page .profile-picture {
             width: 100%;
         }
 
+/* Add styles for the toggle button */
+.toggle-button {
+    display: none; /* Initially hide the toggle button */
+}
+
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 600px) {
-    /* Adjustments for smaller screens */
     body.home-page .profile-picture {
-        background-image: url('Website Pic.png');
-        background-size: cover;
-        background-position: center;
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        margin: 0 auto 0;
-        display: block;
+        /* Your existing styles for the profile picture in mobile view */
     }
 
     nav ul li {
-        display: block;
-        margin-bottom: 5px;
+        /* Your existing styles for navigation links in mobile view */
     }
 
     .mobile-container {
-        max-width: 480px;
-        margin: auto;
-        background-color: #555;
-        height: 500px;
-        color: white;
-        border-radius: 10px;
+        /* Your existing styles for the mobile container */
     }
 
     .topnav {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
+        /* Your existing styles for the top navigation in mobile view */
     }
 
     .topnav #myLinks {
-        display: none;
-    }
-
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
+        /* Your existing styles for the mobile navigation links */
     }
 
     .topnav a.icon {
+        /* Your existing styles for the toggle icon */
         background: black;
         display: block;
         position: absolute;
@@ -123,38 +105,36 @@ body.home-page .profile-picture {
     }
 
     .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+        /* Your existing styles for hover effect in mobile view */
     }
 
     .active {
-        background-color: #04AA6D;
-        color: white;
+        /* Your existing styles for the active link in mobile view */
     }
 
     footer {
         position: static;
     }
 
-    /* Add the styles for the mobile navigation */
-    .mobile-nav {
-        display: none;
-    }
-
-    .nav-open .mobile-nav {
+    /* Display the toggle button in mobile view */
+    .toggle-button {
         display: block;
-    }
-
-    .nav-closed .mobile-nav {
-        display: none;
-    }
-
-    .nav-closed nav ul {
-        display: none;
-    }
-
-    .nav-open nav button {
-        background-color: #333;
+        background: black;
         color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    /* Hide regular navigation links in mobile view */
+    nav ul {
+        display: none;
+    }
+
+    /* Show navigation links when the toggle button is clicked */
+    .nav-open nav ul {
+        display: block;
     }
 }
