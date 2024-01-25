@@ -76,7 +76,7 @@ body.home-page .profile-picture {
     body.home-page .profile-picture {
         width: 100px;
         height: 80px;
-        margin: 10px auto; /* Center the profile picture */
+        margin: 0px auto 0;
         display: block;
     }
 
