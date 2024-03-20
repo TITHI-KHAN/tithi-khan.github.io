@@ -77,7 +77,7 @@ body.home-page .profile-picture {
 @media only screen and (max-width: 600px) {
     body.home-page .profile-picture {
         /* Your existing styles for the profile picture in mobile view */
-       background-image: url('Website Pic.png');
+       background-image: url('Mic Pic.png');
         background-size: cover;
         background-position: center;
         width: 200px;
